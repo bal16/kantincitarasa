@@ -23,8 +23,9 @@ export const DarkToggle = () => {
   return (
     <>
       <label
+        htmlFor="tombolDark"
         className=" backdrop-blur-lg bg-opacity-50 swap swap-rotate fixed rounded-full btn right-5 z-[99] bottom-4 shadow-sm p-7 bg-base-300  duration-1000 border-none tooltip tooltip-left shadow-base-content"
-        data-tip={!localStorage.theme&&auto ? "revelio!" : dark ? "lumos!" : "nox!"}
+        data-tip={!localStorage.theme&&auto ? "revelio!" : dark ? "lumos!" : "nox!"} 
       >
         {/* this hidden checkbox controls the state */}
 

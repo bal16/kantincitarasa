@@ -27,7 +27,7 @@ export const Card = () => {
               className="dropdown tooltip tooltip-right"
               data-tip="other option?"
             >
-              <div tabIndex={0} role="button" className="btn">
+              <div tabIndex={0} role="button" className="btn" aria-label="otherOption"> 
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 128 512"
